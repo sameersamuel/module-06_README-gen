@@ -27,7 +27,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'node',
+        name: 'contributing',
         message: 'Who has contributed to building this application?',
     },
     {
@@ -45,8 +45,15 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email address?'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your github?'
     }
 ];
+
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

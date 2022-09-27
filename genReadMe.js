@@ -1,35 +1,51 @@
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+// [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
+
 function genReadMe(data){
-    return `
-        # ${data.title}
-        ${data.license}
+   // when client chooses MIT then MIT badge is attached. when client chooses Apache, Apache badge is attached
+   if (data.license === 'MIT'){
+    data.license = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+   } else {
+    data.license = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+   };
+return `
+# ${data.title}
+# ${data.license} 
 
-        ### Description
+### Description
 
-        ${data.description}
+${data.description}
 
-        ### Table of Contents
-        * Installation
+### Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Test](#test)
+* [Questions](#questions)
 
-        ## Installation
-        Run the following commands to install:
-        \`\`\`
-        ${data.installation}
-        \`\`\`
+## Installation
+Run the following commands to install:
+\`\`\`
+${data.installation}
+\`\`\`
 
-        ## Usage
-        ${data.usage}
+## Usage
+${data.usage}
 
-        ## Contributors
-        ${data.contributors}
+## Contributors
+${data.contributing}
 
-        ## Test
-        ${data.test}
+## Test
+${data.test}
 
-        ## A poignant Question
-        ${data.question}
+## Questions
+${data.email}
+${data.github}
 
 
-    `
+`
 }
 
 module.exports = genReadMe;
