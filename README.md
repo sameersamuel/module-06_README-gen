@@ -1,35 +1,8 @@
+#Module 9 Challenge
+###Generate a REAME.md
 
-# asdfds
-# [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+1. Open 'index.js' in the intergrated Terminal.
 
-### Description
+2. Type 'node index.js' and press 'return', or 'enter' for PC, to start the questionnaire that will create your README.md.
 
-asdfsd
-
-### Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Test](#test)
-* [Questions](#questions)
-
-## Installation
-Run the following commands to install:
-```
-asdfsd
-```
-
-## Usage
-asdfasd
-
-## Contributors
-asdf
-
-## Test
-asdfds
-
-## Questions
-asdfasd
-asdfsd
-
-
+3. 

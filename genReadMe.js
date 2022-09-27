@@ -34,7 +34,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## Contributors
+## Contributing
 ${data.contributing}
 
 ## Test
