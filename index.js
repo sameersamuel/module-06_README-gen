@@ -18,7 +18,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'What command is usded to install this application?',
+        message: 'What command is used to install this application?',
     },
     {
         type: 'input',
