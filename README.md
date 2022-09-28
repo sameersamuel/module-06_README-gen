@@ -1,40 +1,35 @@
-#Module 9 Challenge
-###Generate a README file.
 
-1. Open 'index.js' in the intergrated Terminal.
-![Open index.js in Terminal](./screenshots/open-in-terminal.png)
+# Module 09 README Generator
+# [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-2. Type 'node index.js' and press 'return', or 'enter' for PC, to start the questionnaire that will create your README.md.
-![Enter node index.js](./screenshots/type-node-indexjs.png)
+### Description
 
-3. Fill out each question
+This is an easy and efficient way to create an informative README just but answering a few questions about your project.
 
-What is the title of this project?
-![Title](./screenshots/title.png)
+### Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Test](#test)
+* [Questions](#questions)
 
-Please provide a short description of your project, including the what, why, and how of your project, i.e., motivation, why you built it, what problems it solves, what did you learn, and why it is important.
-![Description](./screenshots/description.png)
+## Installation
+Run the following commands to install:
+```
+open the index.js in the Terminal. Type 'node index.js' and the questionnaire will begin.
+```
 
-What command is used to install this application?
-![Installation](./screenshots/installation.png)
+## Usage
+It is easily used by answering all the questions with accurate information about your project so that clear documentation is available to any person using the project.
 
-How is this application used?
-![Usage](./screenshots/usage.png)
+## Contributing
+Sameer Bhattacharya
 
-Who has contributed to building this application?
-![Contributing](./screenshots/contributing.png)
+## Test
+This particular application can be tested by providing the answers with information and observing that the exact information populates the newly generated README.
 
-What license should your application have? (Use arrow keys)
-![License](./screenshots/license.png)
+## Questions
+sameerflyleaf@gmail.com
+sameersamuel
 
-How would one test this application?
-![Testing](./screenshots/testing.png)
 
-What is your email address?
-![Email](./screenshots/email.png)
-
-What is your github?
-![Github](./screenshots/github.png)
-
-Finished README
-![README](./screenshots/readme-example.png)
